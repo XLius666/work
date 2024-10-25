@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  border: none;
+}
+body {
+  background-image: url(https://media.istockphoto.com/id/1301527059/vector/ocean-or-sea-underwater-background-empty-bottom.jpg?s=612x612&w=0&k=20&c=UYj2_Lgp3F46rtTyx7C6-k7b__sVPdZ-8KVa8cuxZtk=);
+
+  background-repeat: no-repeat;
+  background-position: center;
+
+  background-attachment: fixed;
+
+  background-size: cover;
+}
+header {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  padding: 10px 16px;
+  color: #f1f1f1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px 70px;
+}
+nav {
+  color: gray;
+}
+nav a {
+  color: white;
+  margin: 15px;
+}
+ul {
+  width: 55%;
+  height: 45px;
+  top: 52px;
+  left: 67px;
+  gap: 0px;
+  opacity: 0px;
+}
+ul li {
+  font-family: Passion One;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 35.23px;
+  text-align: left;
+  background-color: linear-gradient(
+    97.61deg,
+    #ffffff 44.11%,
+    rgba(255, 255, 255, 0) 104.05%
+  );
+}
+
+main {
+  padding: 40px;
+}
+
+.section_content {
+  max-width: 1255px;
+  margin: auto;
+}
+
+.Card-box {
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.01);
+
+  padding: 32px;
+}
+.God-father{
+display: flex;
+align-items: center;
+justify-content: center;
+padding-top: 550px;
+}
+h5 {
+  color: #FFF;
+  font-family: "Passion One";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 10vh;
+}
+
+.section_content3{
+  width: 100%;
+ height: 100px;
+}
+.section_content3 img{
+padding-left: 50%;
+padding-top: 280px;
+
+
+}
+
+.octopus {
+  width: 100%;
+  max-width: 600px;
+}
+.section_content2 {
+  display: grid;
+  grid-template-columns: 60% calc(40% - 52px);
+  max-width: 1000px;
+  gap: 52px;
+  align-items: center;
+}
+.section_content2 div {
+  display: grid;
+  gap: 32px;
+  width: 100%;
+
+  justify-items: center;
+}
+
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 27px;
+  font-weight: 800;
+  color: white;
+  text-transform: uppercase;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  line-height: 10px\;;
+}
+.section_content2 div button {
+  color: gold;
+  border: 1px solid gold;
+  border-radius: 6px;
+  font-size: 16px;
+  padding-inline: 20px 40px;
+  transition: 0.3;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.Card-box p {
+  color: #fff;
+  font-family: "Passion One";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #fff;
+  font-family: "Passion One";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.fish-box-container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  align-items: center;
+}
+
+.section_content {
+  display: grid;
+  justify-items: center;
+  gap: 52px;
+}
+
+.Card-box img {
+  width: 100%;
+}
+
+.Card-box {
+  gap: 32px;
+  display: grid;
+  justify-content: center;
+}
+
+.Card-box:nth-child(2) {
+  margin-top: 32px;
+}
+
+.Card-box:nth-child(3) {
+  margin-top: 64px;
+}
+
+.Card-box:nth-child(4) {
+  margin-top: -64px;
+}
+
+.Card-box:nth-child(5) {
+  margin-top: -32px;
+}
+
+@media screen and (max-width: 1280px) {
+  .fish-box-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+  .card {
+    margin: 0 !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .fish-box-container {
+    grid-template-columns: 1fr;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
